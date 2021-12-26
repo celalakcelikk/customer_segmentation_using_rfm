@@ -1,5 +1,5 @@
 ###############################################################
-# 1. Veri Hazırlama ve Anlama
+# Veri Hazırlama ve Anlama
 ###############################################################
 
 import datetime as dt
@@ -45,7 +45,7 @@ df["TotalPrice"] = df["Price"] * df["Quantity"]
 
 
 ###############################################################
-# 2. RFM Metriklerinin Hesaplanması
+# RFM Metriklerinin Hesaplanması
 ###############################################################
 #: Recency, Frequency ve Monetary tanımlarını yapınız.
 #: Müşteri özelinde Recency, Frequency ve Monetary metriklerini groupby, agg ve lambda ile hesaplayınız.
@@ -68,7 +68,7 @@ rfm = rfm[rfm["monetary"] > 0]
 
 
 ###############################################################
-# 3. RFM Skorlarının Oluşturulması ve Tek Bir Değişkene Çevrilmesi
+# RFM Skorlarının Oluşturulması ve Tek Bir Değişkene Çevrilmesi
 ###############################################################
 #: Recency, Frequency ve Monetary metriklerini qcut yardımı ile 1-5 arasında skorlara çeviriniz.
 #: Bu skorları recency_score, frequency_score ve monetary_score olarak kaydediniz.
@@ -84,7 +84,7 @@ rfm["RFM_SCORE"] = rfm["recency_score"].astype(str) + rfm["frequency_score"].ast
 
 
 ###############################################################
-# 3. RFM Skorlarının Segment Olarak Tanımlanması
+# RFM Skorlarının Segment Olarak Tanımlanması
 ###############################################################
 #: Oluşturulan RFM skorların daha açıklanabilir olması için segment tanımlamaları yapınız.
 #: Aşağıdaki seg_map yardımı ile skorları segmentlere çeviriniz.
@@ -107,7 +107,7 @@ rfm['segment'] = rfm['RFM_SCORE'].replace(seg_map, regex=True)
 
 
 ###############################################################
-# 3. Aksiyon Zamanı!
+# Aksiyon Zamanı!
 ###############################################################
 #: Önemli bulduğunuz 3 segmenti seçiniz. Bu üç segmenti;
 #: Hem aksiyon kararları açısından,
