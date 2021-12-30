@@ -1,6 +1,7 @@
 # Customer Segmentation using RFM (RFM kullanarak Müşteri Segmentasyonu)
-![rfm1](https://github.com/celalakcelikk/customer_segmentation_using_rfm/blob/main/media/rfm1.png)
-
+<p align="center">
+  <img src="https://github.com/celalakcelikk/customer_segmentation_using_rfm/blob/main/media/rfm1.png" alt="cltv"/>
+<p>
 ## İş Problemi
 Bir e-ticaret şirketi müşterilerini segmentlere ayırıp bu segmentlere göre pazarlama stratejileri belirlemek istemektedir.
 
