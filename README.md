@@ -25,4 +25,4 @@ Müşterileri **RFM yöntemi** ile segmentlere ayırınız.
 * **InvoiceDate:** Fatura tarihi 
 * **UnitPrice:** Fatura fiyatı (Sterlin)
 * **CustomerID:** Eşsiz müşteri numarası 
-* **Country:** Ülke ism
+* **Country:** Ülke ismi
